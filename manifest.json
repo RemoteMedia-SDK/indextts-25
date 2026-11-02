@@ -1,0 +1,24 @@
+{
+  "version": "v1",
+  "metadata": {
+    "name": "indextts-25",
+    "description": "IndexTTS 2.5 complete utterance synthesis"
+  },
+  "plugins": ["."],
+  "nodes": [
+    {
+      "id": "tts",
+      "node_type": "IndexTTS25Node",
+      "params": {
+        "__python_version__": "3.11",
+        "model_dir": "checkpoints",
+        "spk_audio_prompt": "prompt.wav",
+        "lang": "EN",
+        "use_bf16": true,
+        "duration_factor": 1.0,
+        "chunk_size": 4096
+      }
+    }
+  ],
+  "connections": []
+}

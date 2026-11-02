@@ -1,0 +1,3 @@
+* text=auto eol=lf
+_vendor/** -text -whitespace linguist-vendored
+patches/*.patch -whitespace

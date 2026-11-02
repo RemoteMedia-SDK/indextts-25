@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+checkpoints/
+outputs/
+# These notebook checkpoint modules are recorded upstream source, not local caches.
+!_vendor/indextts/s2mel/modules/.ipynb_checkpoints/
+!_vendor/indextts/s2mel/modules/.ipynb_checkpoints/*.py
+!_vendor/indextts/s2mel/modules/gpt_fast/.ipynb_checkpoints/
+!_vendor/indextts/s2mel/modules/gpt_fast/.ipynb_checkpoints/*.py

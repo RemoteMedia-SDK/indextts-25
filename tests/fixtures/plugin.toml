@@ -1,0 +1,10 @@
+[plugin]
+name = "indextts-25-test-backend"
+version = "0.0.0"
+language = "python"
+
+[python]
+entry_module = "fake_backend"
+node_types = ["IndexTTS25Node"]
+module_root = "."
+requires = ["numpy>=1.26,<3", "soundfile>=0.13.1,<1"]
